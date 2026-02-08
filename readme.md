@@ -92,7 +92,7 @@ COREP-Agent/
 |──readme.md
 ```
 
-## Future Enhancements for better Scaleing
+## Future Enhancements for better Scaling
 
 1. decopule Frontend and Backend codes
 2. deploy Backend/Agent API using FastAPI, Proper RAG and database 
