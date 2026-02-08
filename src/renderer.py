@@ -15,7 +15,6 @@ class Renderer:
                 </style>
             </head>
             <body>
-                <h1>{template_schema['template_name']} ({template_schema['template_id']})</h1>
                 <table>
                     <tr>
                         <th>Field ID</th>

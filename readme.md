@@ -1,48 +1,36 @@
 # COREP AI Agent prototype
-
 An LLM agent that take user query and UK banks data and give appropiate answer and JSON format and basice validations and reasoninig for how it get that conclusion.
-
 ## Technologies Used 
-
 - **Python 3.11+**
 - **Frontend**: python, streamlit
 - **LLM**: llama-3.3-70b-versatile
-- **API**: GROQ for setup llm request on online
 - **prompt style**: Fewshot prompt with spacific JSON output schema
-
+- **Rag Database**: Faiss
+- **others**: GROQ online request response and request tracking 
 ## Installation
-
 ## Prerequisites
 - Python 3.8 or higher
 - pip package manager
-
 ### Setup
-
 1. **Clone the repo**
 ```bash
-git clone 
+git clone https://github.com/Harsh0patel/COREP-Agent-prototype
 ```
-
 2. **Create a virtual enviroment**
 ```bash
 python -m venv myenv
 scource venv/bin/activate # On Windows: myenv\Scripts\Activate
 ```
-
 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
-
 ## To run locally
-
 1. **run below command on cmd after running whole setup**
 ```bash 
 python -m streamlit run app.py
 ```
-
 ## Example 
-
 **Input Text:**
 ```
 COREP Template: C_01.00-Own Funds
@@ -57,14 +45,41 @@ ABC Bank has the following:
 - Goodwill: £50 million
 - Total risk exposure amount: £10 billion
 ```
-
 **Generated Summary:(JSON only)**
-```JSON
-{"template_id":"C_01.00","fields":[{"field_id":"C01_R0010_C0010","field_name":"Common Equity Tier 1 (CET1) capital","value":750000,"unit":"thousands_EUR","used_rules":["Article 92(2)(a) of CRR"],"reasoning":"Share capital 500M + Retained earnings 200M + Share premium 100M - Goodwill 50M = 750M"},{"field_id":"C01_R0015_C0010","field_name":"Common Equity Tier 1 capital ratio","value":7.5,"unit":"%","used_rules":["Article 92(2)(a) of CRR"],"reasoning":"CET1 capital 750M / Total risk exposure amount 10000M * 100 = 7.5%"}]}
+```json
+{"template_id":"C_01.00",
+    "fields":[{
+        "field_id":"C01_R0010_C0010",
+        "field_name":"Common Equity Tier 1 (CET1) capital",
+        "value":750000,
+        "unit":"thousands_EUR",
+        "used_rules":["Article 92(2)(a) of CRR"],
+        "reasoning":"Share capital 500M + Retained earnings 200M + Share premium 100M - Goodwill 50M = 750M"
+    },
+    {
+        "field_id":"C01_R0015_C0010",
+        "field_name":"Common Equity Tier 1 capital ratio",
+        "value":7.5,
+        "unit":"%",
+        "used_rules":["Article 92(2)(a) of CRR"],
+        "reasoning":"CET1 capital 750M / Total risk exposure amount 10000M * 100 = 7.5%"
+    }]
+}
 ```
 
-## Project Structure
+## Example(Images)
 
+**input slide**
+![alt text](etc/image.png)
+
+**output slides**
+![alt text](etc/image-2.png)
+![alt text](etc/image-3.png)
+![alt text](etc/image-6.png)
+![alt text](etc/image-4.png)
+![alt text](etc/image-5.png)
+
+## Project Structure
 ```
 COREP-Agent/
 |──data/
@@ -91,9 +106,7 @@ COREP-Agent/
 |──app.py
 |──readme.md
 ```
-
 ## Future Enhancements for better Scaling
-
 1. decopule Frontend and Backend codes
 2. deploy Backend/Agent API using FastAPI, Proper RAG and database 
 3. dockerize the Agent for fast code deployments
