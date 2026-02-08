@@ -4,6 +4,7 @@ An LLM agent that take user query and UK banks data and give appropiate answer a
 - **Python 3.11+**
 - **Frontend**: python, streamlit
 - **LLM**: llama-3.3-70b-versatile
+- **Rag encodermodel**: all-MiniLM-L6-v2
 - **prompt style**: Fewshot prompt with spacific JSON output schema
 - **Rag Database**: Faiss
 - **others**: GROQ online request response and request tracking 

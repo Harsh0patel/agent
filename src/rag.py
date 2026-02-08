@@ -87,10 +87,10 @@ class RAG:
 # if __name__ == "__main__":
 #     rag = RAG()
 #     rag.load_docs([
-#         'C:/Users/hp333/Desktop/agent/data/rag_text/c01_instructions.txt.txt',
-#         'C:/Users/hp333/Desktop/agent/data/rag_text/c02_instructions.txt.txt',
-#         'C:/Users/hp333/Desktop/agent/data/rag_text/c01_validation_rules.txt.txt',
-#         'C:/Users/hp333/Desktop/agent/data/rag_text/c02_validation_rules.txt.txt'
+#         'data/rag_text/c01_instructions.txt.txt',
+#         'data/rag_text/c02_instructions.txt.txt',
+#         'data/rag_text/c01_validation_rules.txt.txt',
+#         'data/rag_text/c02_validation_rules.txt.txt'
 #     ])
 #     rag.save_index()
 
