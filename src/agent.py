@@ -1,13 +1,19 @@
 import json
+import streamlit as st
 from dotenv import load_dotenv
 from groq import Groq
 import os
 
 load_dotenv()
+def get_secrate(key):
+    if key in st.secrets:
+        return st.secrets[key]
+    else:
+        os.getenv(key)
 
 class outputGenerator():
     def __init__(self):
-        self.client = Groq(api_key = os.getenv("GROQ_API_KEY"))
+        self.client = Groq(api_key = get_secrate("GROQ_API_KEY"))
 
     def generate(self, user_question,scenario, retrived_rules, template_schema):
 
