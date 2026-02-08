@@ -1,0 +1,24 @@
+{
+  "template_id": "C_02.00",
+  "template_name": "Own Funds Requirements",
+  "description": "Capital requirements and risk exposure metrics",
+  "fields": [
+    {
+      "field_id": "C02_R0010_C0010",
+      "field_name": "Total risk exposure amount",
+      "data_type": "numeric",
+      "unit": "thousands_EUR",
+      "validation": "required, must be positive",
+      "description": "Sum of credit, market, and operational risk exposures"
+    },
+    {
+      "field_id": "C02_R0200_C0010",
+      "field_name": "Total own funds requirement",
+      "data_type": "numeric",
+      "unit": "thousands_EUR",
+      "validation": "required, must be >= 8% of total risk exposure",
+      "description": "Minimum required own funds",
+      "formula": "Total risk exposure × 8%"
+    }
+  ]
+}

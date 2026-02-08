@@ -1,0 +1,20 @@
+1. CET1 capital must be positive
+Common Equity Tier 1 capital amount must be greater than zero.
+
+2. CET1 ratio minimum threshold
+CET1 capital ratio must be at least 4.5% of total risk exposure amount.
+
+3. Tier 1 capital composition
+Tier 1 capital must equal the sum of CET1 capital and AT1 capital.
+
+4. Own funds calculation validation
+Own funds must equal Tier 1 capital plus Tier 2 capital.
+
+5. Deductions from CET1
+Goodwill and intangible assets must be deducted from CET1 capital items before calculating final CET1 capital.
+
+6. Share capital validation
+Paid-up share capital must be fully paid and not funded by the institution itself.
+
+7. CET1 components validation
+CET1 capital must include share capital, share premium, retained earnings, and accumulated other comprehensive income.

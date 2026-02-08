@@ -1,0 +1,24 @@
+{
+  "template_id": "C_01.00",
+  "template_name": "Own Funds",
+  "description": "Common Equity Tier 1 capital and related metrics",
+  "fields": [
+    {
+      "field_id": "C01_R0010_C0010",
+      "field_name": "Common Equity Tier 1 (CET1) capital",
+      "data_type": "numeric",
+      "unit": "thousands_EUR",
+      "validation": "required, must be positive",
+      "description": "Total CET1 capital including share capital, share premium, and retained earnings"
+    },
+    {
+      "field_id": "C01_R0015_C0010",
+      "field_name": "Common Equity Tier 1 capital ratio",
+      "data_type": "percentage",
+      "unit": "percent",
+      "validation": "required, must be >= 4.5%",
+      "description": "CET1 capital as percentage of total risk exposure",
+      "formula": "CET1 capital / Total risk exposure × 100"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+1. Common Equity Tier 1 capital Article 26 of CRR
+Common Equity Tier 1 capital shall comprise capital instruments, share premium, retained earnings, and other reserves.
+
+2. CET1 capital instruments Article 28 of CRR
+Capital instruments shall be paid-up and not funded by the institution.
+
+3. CET1 deductions Article 36 of CRR
+Institutions shall deduct goodwill and intangible assets from CET1.
+
+4. CET1 capital ratio Article 92(2)(a) of CRR
+The CET1 capital ratio shall be at least 4.5% of total risk exposure.
+
+5. CET1 ratio calculation
+CET1 ratio = CET1 capital / Total risk exposure amount × 100%
+
+6. Tier 1 capital Article 25 of CRR
+Tier 1 capital shall consist of the sum of Common Equity Tier 1 capital and Additional Tier 1 capital.
+
+7. Own funds composition Article 72 of CRR
+The own funds of an institution shall consist of the sum of its Tier 1 capital and Tier 2 capital.
+
+8. Share premium accounts Article 26(1)(b) of CRR
+Share premium accounts related to Common Equity Tier 1 instruments shall be included in CET1 capital.
+
+9. Retained earnings Article 26(1)(c) of CRR
+Retained earnings and other accumulated comprehensive income shall be included in CET1 capital.

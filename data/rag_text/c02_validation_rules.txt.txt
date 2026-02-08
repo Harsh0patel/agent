@@ -1,0 +1,20 @@
+1. Total risk exposure must be positive
+Total risk exposure amount must be greater than zero.
+
+2. Total capital requirement minimum
+Total capital requirement must be at least 8% of total risk exposure amount.
+
+3. Capital adequacy check
+Institution must maintain sufficient own funds to meet all minimum capital ratios.
+
+4. Risk-weighted assets validation
+Total risk exposure must equal sum of credit, market, and operational risk exposures.
+
+5. Minimum total capital ratio
+Total capital ratio must not fall below 8%.
+
+6. Own funds requirement calculation
+Own funds requirement equals total risk exposure amount multiplied by 8%.
+
+7. Capital ratio hierarchy
+If total capital ratio is below 8%, the institution fails to meet minimum regulatory requirements.

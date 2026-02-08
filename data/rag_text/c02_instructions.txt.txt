@@ -1,0 +1,26 @@
+1. Total risk exposure Article 92(3) of CRR
+Total risk exposure equals sum of credit risk, market risk, and operational risk weighted exposure amounts.
+
+2. Total capital requirement Article 92(1) of CRR
+Institutions must maintain total capital of at least 8% of total risk exposure amount.
+
+3. Minimum capital ratios Article 92 of CRR
+CET1 minimum 4.5%, Tier 1 minimum 6%, Total capital minimum 8%.
+
+4. Capital calculation
+Total capital requirement = Total risk exposure × 8%
+
+5. Credit risk exposure Article 92(3)(a) of CRR
+Risk-weighted exposure amounts for credit risk shall be calculated using Standardised Approach or IRB Approach.
+
+6. Capital adequacy
+Total own funds must be sufficient to cover all risk exposures at the minimum required ratios.
+
+7. Risk-weighted assets
+Total risk exposure amount is the denominator for calculating capital ratios.
+
+8. Own funds requirement Article 92(1)(c) of CRR
+The total capital ratio expressed as own funds as a percentage of total risk exposure amount shall be at least 8%.
+
+9. Risk exposure calculation Article 92(3) of CRR
+Total risk exposure amount shall be calculated as the sum of risk-weighted exposure amounts for credit risk, plus own funds requirements for market risk and operational risk multiplied by 12.5.
